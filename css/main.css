@@ -1,0 +1,251 @@
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-family: 'Titillium Web', sans-serif;
+ }
+
+
+
+/****** Grid ********/
+
+
+ .fullwidth {
+     width:1200px;
+     margin: 0 auto;
+ }
+
+
+ .halfwidth {
+    width: 600px;
+    height: 450px;
+    float: left;
+    overflow: auto;  
+ }
+
+
+ .thirdwidth {
+     width: 400px;
+     height: 500px;
+     float: left;
+     margin: 0 auto;
+ }
+
+ .thirdsize {
+     width: 400px;
+     height: 250px;
+     float: left;
+     margin: 0 auto;
+
+ }
+ 
+
+
+
+ /****** Landing Page *******/
+
+
+ header {
+     background-image: url(../img/hero-image.png);
+     background-size: cover;
+     height: 720px;
+ }
+
+
+ #webcreate {
+    padding-top: 300px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #8CB4A8;
+    font-size: 65px;
+}
+
+
+.webcreate {
+    color: #8CB4A8;
+    font-size: 90px;
+    font-family: Merriweather, Georgia, serif;
+}
+
+span {
+    font-size: 75px;
+    color: #505151;
+}
+
+
+h2 {
+    
+    text-align: center;
+    padding: 210px 30px;
+    width:400px;
+    margin: auto;
+}
+
+
+nav {
+    background-color: #8CB4A8;
+    width: 100%; 
+}
+
+
+ul {
+    text-align: right;
+    list-style-type: none;
+    word-spacing: 14px;
+    line-height: 60px;
+    padding-right: 35px;
+}
+
+
+nav ul li {
+    display: inline-block;   
+}
+
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+} 
+
+
+
+/****** Portfolio *******/
+
+
+.portfolio {
+    color: white;
+    background:#8CB4A8;
+    height: 1650px;
+    display: block;   
+}
+
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding: 60px 0 40px 0;
+    margin: 0;
+}
+
+
+p {
+    color: white;
+    font-size: 25px;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+.img {
+    padding: 80px 50px 0px 50px;
+    width: 500px;
+}
+
+
+.img-text {
+    padding: 80px 50px 0px 50px;
+    width: 500px;
+}
+
+
+
+/****** About Me *******/
+
+
+.aboutme {
+    color: white;
+    background: #BCE0E0;
+    height: 620px;
+    display: block;
+}
+
+#welcome {
+    padding: 30px 0 120px 100px;
+    width: 500px;
+    line-height: 55px;
+    margin: 0;
+    text-align: center;
+}
+
+
+#pepe {
+    padding: 30px 50px 0 50px;
+    width: 500px;   
+}
+
+
+
+/****** Contact *******/
+
+
+.contact {
+    background:#8CB4A8;
+    clear: both;
+    overflow: auto;
+    height: 450px;
+    
+}
+
+.contact h3 {
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+
+h4 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#envelope {
+    padding: 20px 0 0 180px;
+    margin: auto;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 0 130px;
+}
+
+
+ .contact p {
+     line-height: 30px;
+     font-size: 20px;
+ }
+
+
+/****** footer ******/
+
+footer {
+    clear: both;
+    margin: 0 auto;  
+}
+
+.footer {
+    background: #F9F8F8;
+}
+
+footer p {
+    color: #8CB4A8;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
+
+
+
+
